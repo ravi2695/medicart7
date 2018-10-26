@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/pre"
+
+            android:title="Prescriptions" />
+        <item
+            android:id="@+id/ayu"
+
+            android:title="Ayush" />
+        <item
+            android:id="@+id/spot"
+
+            android:title="Spotlight" />
+        <item
+            android:id="@+id/Fit"
+
+            android:title="Fitness" />
+        <item
+            android:id="@+id/per"
+
+            android:title="Personal Care" />
+        <item
+            android:id="@+id/fam"
+
+            android:title="Family Care" />
+        <item
+            android:id="@+id/Life"
+
+            android:title="Lifestyle" />
+        <item
+            android:id="@+id/Treat"
+
+            android:title="Treatments" />
+        <item
+            android:id="@+id/dev"
+
+            android:title="Devices" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/home"
+
+                android:title="Home" />
+            <item
+                android:id="@+id/up"
+
+                android:title="Upload Prescription" />
+
+            <item
+                android:id="@+id/hl"
+
+                android:title="Health Library" />
+
+            <item
+                android:id="@+id/Vw"
+
+                android:title="View offers" />
+        </menu>
+    </item>
+
+</menu>
